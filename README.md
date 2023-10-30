@@ -13,8 +13,10 @@ If you want to change/add product simply change/add code in ProductRepository.
 For repeatable requests one UUID is constant - e6b577db-7102-4384-813c-bb0b5252ea43.
 
 Discount polices are configurable with below properties - unit is percentage:
+
 percentage.based.policy=50
 count.based.policy=10,20,50
+
 Percentage works intuitively. No matter how many products final price is calculated by formula:
 product price multiply by amount and then provide percentage discount
 eg. 10  * 10 products * 50% discount = 50 
